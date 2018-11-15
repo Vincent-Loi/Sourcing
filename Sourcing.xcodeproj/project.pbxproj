@@ -71,6 +71,8 @@
 		C6F3A0721F95CDEA00F43FA4 /* SectionTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3A06F1F95CDEA00F43FA4 /* SectionTexts.swift */; };
 		C6F3A0731F95CDEA00F43FA4 /* Array+SectionTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3A0701F95CDEA00F43FA4 /* Array+SectionTexts.swift */; };
 		C6F913181D506BC800B0535C /* DataProviderChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F913171D506BC800B0535C /* DataProviderChange.swift */; };
+		E8FC4C94219D9E6500B00AD9 /* TableViewDataSource-Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FC4C93219D9E6500B00AD9 /* TableViewDataSource-Mac.swift */; };
+		E8FC4C96219DA16500B00AD9 /* TableViewChangesAnimator-Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FC4C95219DA16500B00AD9 /* TableViewChangesAnimator-Mac.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +153,8 @@
 		C6F3A06F1F95CDEA00F43FA4 /* SectionTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTexts.swift; sourceTree = "<group>"; };
 		C6F3A0701F95CDEA00F43FA4 /* Array+SectionTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+SectionTexts.swift"; sourceTree = "<group>"; };
 		C6F913171D506BC800B0535C /* DataProviderChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProviderChange.swift; sourceTree = "<group>"; };
+		E8FC4C93219D9E6500B00AD9 /* TableViewDataSource-Mac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableViewDataSource-Mac.swift"; sourceTree = "<group>"; };
+		E8FC4C95219DA16500B00AD9 /* TableViewChangesAnimator-Mac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableViewChangesAnimator-Mac.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -337,6 +341,7 @@
 			isa = PBXGroup;
 			children = (
 				C6817BA51F8E6F09008B45F6 /* TableViewChangesAnimator.swift */,
+				E8FC4C95219DA16500B00AD9 /* TableViewChangesAnimator-Mac.swift */,
 				C6D12DC01F9612C00015A3C3 /* CollectionViewChangesAnimator.swift */,
 			);
 			name = ChangesAnimator;
@@ -357,6 +362,7 @@
 			isa = PBXGroup;
 			children = (
 				945ABE831E0D678E001B42CE /* TableViewDataSource.swift */,
+				E8FC4C93219D9E6500B00AD9 /* TableViewDataSource-Mac.swift */,
 				9432D2691CF5AC7C00B72986 /* CollectionViewDataSource.swift */,
 			);
 			path = DataSource;
@@ -508,6 +514,7 @@
 				C6E163771F8F764500ED9F1D /* DataProviderObservable.swift in Sources */,
 				945ABE841E0D678E001B42CE /* TableViewDataSource.swift in Sources */,
 				9432D26C1CF5ACC800B72986 /* ConfigurableCell.swift in Sources */,
+				E8FC4C94219D9E6500B00AD9 /* TableViewDataSource-Mac.swift in Sources */,
 				94EBCFCC1E1A481500184FD5 /* AnyDataProvider.swift in Sources */,
 				943D00EA1E01AE040066328E /* FetchedResultsDataProvider.swift in Sources */,
 				C6A72E90202A121800D4FD51 /* AnyReusableViewConfiguring.swift in Sources */,
@@ -517,6 +524,7 @@
 				C6F3A0731F95CDEA00F43FA4 /* Array+SectionTexts.swift in Sources */,
 				9432D27B1CF5AE6200B72986 /* CellConfiguration.swift in Sources */,
 				C688F5B31FFF51D1000A4B06 /* SectionIndexTitles.swift in Sources */,
+				E8FC4C96219DA16500B00AD9 /* TableViewChangesAnimator-Mac.swift in Sources */,
 				561ED9CC20129F4C00C3AF2A /* ReusableViewConfiguration.swift in Sources */,
 				C67162E921187F01006C29E4 /* SectionMetaData.swift in Sources */,
 				C61699B11FE011640061EA11 /* DefaultDataProviderObservable.swift in Sources */,
