@@ -54,10 +54,13 @@ public final class TableViewDataSource<Object>: NSObject, NSTableViewDataSource 
             self.dataProvider = AnyDataProvider(dataProvider)
             self.dataModificator = dataModificator
             self.cellConfiguration = AnyReusableViewConfiguring(cellConfiguration)
-            self.sectionMetaData = sectionMetaData
             super.init()
     }
-
+    
+    public func numberOfRows(in tableView: NSTableView) -> Int {
+        return dataProvider.numberOfItems(inSection: 0)
+    }
+    
 }
 
 #endif
